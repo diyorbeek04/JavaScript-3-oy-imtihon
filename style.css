@@ -1,0 +1,53 @@
+#hero{
+    width: 100%;
+    margin-top: 50px;
+}
+#hero .container .hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#hero .container .hero h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #222;    
+}
+#hero .container .hero .problem{
+    width: 48%;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 10px #999;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eeecec;
+}
+#hero .container .hero .problem h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+@media only screen and (max-width: 768px){
+    #hero .container .hero .problem{
+        width: 100%;
+        border: 1px solid #333;
+        box-shadow: 5px 5px 10px #999;
+        margin-bottom: 30px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #eeecec;
+    }
+}
+@media only screen and (max-width: 576px){
+    #hero .container .hero .problem{
+        width: 90%;
+        margin: 10px auto;
+    }
+    #hero .container .hero .problem h3{
+        font-size: 16px;
+    }
+}
